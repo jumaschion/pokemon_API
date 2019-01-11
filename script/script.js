@@ -12,13 +12,20 @@ fetch(url)
     });
 
 const btn = document.querySelector('.btn')
+
     
 //Evento de click
 btn.addEventListener('click', function(event){
     event.preventDefault();
+
+    const loading = document.querySelector('.loading')
     const nomeDoPokemonPesquisado = document.getElementById('input').value.toLowerCase() //convertido para minusculo
     console.log(findPokemonId(nomeDoPokemonPesquisado));
+
     let Id = findPokemonId(nomeDoPokemonPesquisado);
+
+    loading.innerHTML =  `<img src="img/pikachu-gif.gif">
+                            <h3 class="loading-title"> Peraíí, estamos buscando seu pokemon...</h3>`;
 
     if (Id){
         showPokemonInfo(Id)
