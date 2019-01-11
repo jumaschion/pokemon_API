@@ -41,14 +41,14 @@ body {
 main {
 max-width: 60vw;
 padding: 70px;
-background-image: linear-gradient(to right, rgba(180, 226, 161, 0.589) , rgba(243, 243, 243, 0.589), rgba(236, 243, 230, 0.418));
+background-image: linear-gradient(to right, rgba(180, 226, 161, 0.589) , rgba(243, 243, 243, 0.87), rgba(236, 243, 230, 0.705));
 min-height: 100vh;
 justify-content: center;
 align-items: flex-start;
 }
 
 .main-pokelist {
-    background-image: linear-gradient(to right, rgba(226, 181, 161, 0.589) , rgba(243, 243, 243, 0.589), rgba(236, 243, 230, 0.418));
+    background-image: linear-gradient(to right, rgba(226, 181, 161, 0.589) , rgba(243, 243, 243, 0.87), rgba(236, 243, 230, 0.705));
 }
 
 
