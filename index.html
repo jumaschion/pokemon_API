@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Poke API</title>
+  <title>Pokemon API</title>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
 
@@ -11,23 +11,25 @@
 </head>
 
 <body>
+  <nav class="nav-primary">
+    <a class="link-pages" href="index.html">Home</a>
+    <a class="link-pages" href="pokeList.html"> PokeList</a>
+  </nav>
   <main>
-
-    <div class="group">
-      <div id="results">
-        <form class=pokeForm>
-          <input id=input placeholder="Pokemon's name" type="text">
-          <button class="btn">Go!</button>
-      </div>
+  
+    <div class="container">
+      <form class=pokeForm>
+        <input id=input placeholder="Pokemon's name" type="text">
+        <button class="btn">Go!</button>
       </form>
+    </div>
 
+    <div class="pokeInfo"> 
     </div>
-    <div class="pokeInfo">
-        <div class="loading"></div>
-    </div>
+
 
   </main>
-  
+
   <script src="script/script.js"></script>
 </body>
 

@@ -12,20 +12,45 @@ h1 {
 }
 
 body {
-    background-size: cover;
-    background-color: #1363388a;   
+    background-size: cover;  
     background-image: url("../img/pokemonbg.jpg");
     background-repeat: no-repeat;
+    
+}
+
+.nav-primary {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    background-color: rgba(44, 133, 44, 0.589);
+    padding: 10px;
+}
+
+.nav-pokelist {
+    background-color: rgba(133, 72, 44, 0.589);
+}
+
+.link-pages {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    margin: 10px;
+
 }
 
 main {
 max-width: 60vw;
 padding: 70px;
-background-color: rgba(243, 255, 245, 0.781);
+background-image: linear-gradient(to right, rgba(180, 226, 161, 0.589) , rgba(243, 243, 243, 0.589), rgba(236, 243, 230, 0.418));
 min-height: 100vh;
 justify-content: center;
 align-items: flex-start;
 }
+
+.main-pokelist {
+    background-image: linear-gradient(to right, rgba(226, 181, 161, 0.589) , rgba(243, 243, 243, 0.589), rgba(236, 243, 230, 0.418));
+}
+
 
 .group {
     width: 100%;
@@ -40,6 +65,7 @@ align-items: flex-start;
 
 .pokeAbility {
     font-size: 1.2rem;
+    line-height: 1.6;
 }
 
 .poke-title {
@@ -71,5 +97,25 @@ input {
     left: -50px;
     cursor: pointer;
 }
+
+/* POKE LIST */ 
+
+.removeTask {
+	position: absolute;
+	right: 15px;
+	top: 20px;
+	cursor: pointer;
+}
+
+.list-group-item {
+	padding: 10px;
+	cursor: pointer;
+    position: relative;
+    list-style: none;
+    width: 82%;
+}
+
+
+
 
 
